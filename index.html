@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>connorstevens</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta property="og:title" content="connorstevens" />
+        <meta property="og:description" content="I'm Connor, welcome to my website." />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/515746482385715201/670506894732951562/Connor_logo.png" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon.ico"/>
+        
+        <style>
+        body {
+            background-color: black;
+            color: azure;
+            font-family: Roboto;
+            text-align: center;
+            font-size: 300%;
+        }
+        a {
+            font-size: 50%;
+        }
+        </style>
+
+        <script>
+            function startTime() {
+                var today = new Date();
+                var h = today.getHours();
+                var m = today.getMinutes();
+                var s = today.getSeconds();
+                m = checkTime(m);
+                s = checkTime(s);
+                document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
+                var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+                if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                return i;
+            }
+        </script>
+
+    </head>
+
+    <body onload="startTime()">
+        <p>
+            coming soon...
+        </p>
+        <div id="clock">
+
+        </div>
+    </body>
+
+</html>
