@@ -10,14 +10,14 @@
         <meta property="og:description" content="I'm Connor, welcome to my website." />
         <meta property="og:image" content="https://media.discordapp.net/attachments/515746482385715201/670506894732951562/Connor_logo.png" />
         
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
         <link rel="icon" href="favicon.ico"/>
         
         <style>
         body {
             background-color: black;
             color: azure;
-            font-family: Roboto;
+            font-family: Lato;
             text-align: center;
             font-size: 300%;
         }
@@ -34,6 +34,10 @@
                 var s = today.getSeconds();
                 m = checkTime(m);
                 s = checkTime(s);
+                h += 1
+                if(h > 12){
+                    h -= 12;
+                }
                 document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
                 var t = setTimeout(startTime, 500);
             }
