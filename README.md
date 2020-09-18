@@ -5,4 +5,5 @@ I'm currently working on my HTML/CSS Skills, while building full stack applicati
 ## Programming Stats
 [![connorstevens' github stats](https://github-readme-stats.vercel.app/api?username=connorstevens&show_icons=true&hide_title=true&theme=dracula&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 
+## Programming Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=connorstevens&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
